@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res)=> { // route handler
-  res.send({hi: 'there' });
+  res.send({by: 'buddy' });
 
 });
 
